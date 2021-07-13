@@ -11,11 +11,11 @@ Successful banker employee with more than 5 years of professional experience. Lo
 2009-2014 Belorussian State Economic University, economist cybernetic  
 2021 JavaScript/DOM/Interfaces program on https://learn.javascript.ru/  
 2021 Self-study: HTMLAcademy, Code Basics, Glo Academy
+## English
+B1 (intermediate level), Streamline school 2020 - till now
 ## Skills
 Currently working on improving my skills on:
 * HTML
 * CSS
 * JavaScript
-* Git  
-## English
-B1 (intermediate level), Streamline school 2020 - till now
+* Git
