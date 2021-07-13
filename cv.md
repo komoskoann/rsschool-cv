@@ -1,7 +1,9 @@
 # Ann Komosko
 ![title](images/photo.png)
 ## Contacts
+*location:* Minsk, Belarus  
 *e-mail:* komoskoann@gmail.com  
+*github:* https://github.com/komoskoann  
 *phone number:* +375447168682
 ## About me
 Successful banker employee with more than 5 years of professional experience. Looking for new opportunities in IT sphere. Interested in frontend development. I have experience working as part of a team and individually. Always energetic and eager to learn new skills.
