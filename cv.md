@@ -16,6 +16,6 @@ Currently working on improving my skills on:
 * HTML
 * CSS
 * JavaScript
-* Git
+* Git  
 ## English
 B1 (intermediate level), Streamline school 2020 - till now
