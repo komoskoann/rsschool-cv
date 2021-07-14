@@ -77,15 +77,15 @@ h2 {
 }
 
 .location {
-  background-image: url(/images/location.svg);
+  background-image: url(images/location.svg);
 }
 
 .phone-number {
-  background-image: url(/images/phone.svg);
+  background-image: url(images/phone.svg);
 }
 
 .e-mail {
-  background-image: url(/images/e-mail.svg);
+  background-image: url(images/e-mail.svg);
 }
 
 section li,
