@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.container {
+  max-width: 960px;
+  border: 2px solid #6f688b;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #6f688b;
+  justify-content: space-between;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #b9b4cc;
+}
+
+.photo {
+  border-radius: 50%;
+  border: 2px solid #b9b4cc;
+  width: 10%;
+  height: 10%;
+  margin: 0.5% 5%;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  font-size: 14px;
+  line-height: 16px;
+  color: #b9b4cc;
+  margin: 0% 3%;
+}
+
+.name {
+  width: 50%;
+}
+
+.contacts ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+.contacts li {
+  margin: 0;
+  padding-bottom: 4%;
+  padding-left: 12%;
+  background-repeat: no-repeat;
+}
+
+.contacts li:nth-child(3) {
+  padding-bottom: 0;
+  word-break: break-all;
+}
+
+.location {
+  background-image: url(/images/location.svg);
+}
+
+.phone-number {
+  background-image: url(/images/phone.svg);
+}
+
+.e-mail {
+  background-image: url(/images/e-mail.svg);
+}
+
+section li,
+p {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.about-me,
+.education,
+.skills,
+.english {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.about-me {
+  margin-top: 3%;
+}
+
+.english {
+  margin-bottom: 3%;
+}
+
+.footer {
+  background-color: #6f688b;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rsshool-logo {
+  width: 10%;
+  height: 10%;
+  margin: 0.5% 5%;
+}
+
+.year {
+  margin: 0.5% 5%;
+  color: #b9b4cc;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.footer a {
+  color: #b9b4cc;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 20px;
+}
