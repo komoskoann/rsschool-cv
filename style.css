@@ -3,7 +3,7 @@ body {
   font-family: Arial;
 }
 
-.container {
+.main {
   max-width: 960px;
   border: 2px solid #6f688b;
   margin: auto;
@@ -97,7 +97,8 @@ p {
 .about-me,
 .education,
 .skills,
-.english {
+.english,
+.code-example {
   margin-left: 5%;
   margin-right: 5%;
 }
@@ -106,8 +107,13 @@ p {
   margin-top: 3%;
 }
 
-.english {
+.code-example {
   margin-bottom: 3%;
+}
+
+.code {
+  width: 70%;
+  height: 70%;
 }
 
 .footer {
