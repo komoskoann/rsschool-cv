@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV - Komosko Ann</title>
+    <link rel="stylesheet" href="highlight/styles/github-dark-dimmed.min.css">
+    <script src="highlight/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
@@ -63,12 +66,18 @@
     <section class="code-example" id="code-example">
       <h2>Code Example</h2>
         <p>Write a function that takes an integer as input, and returns the number of bits that are equal to one in the binary representation of that number. You can guarantee that input is non-negative.</p>
-        <img src="images/code.png" alt="code" class="code">
+        <!-- <img src="images/code.png" alt="code" class="code"> -->
+        <pre><code class="language-js">
+        let countBits = function(n) {
+          n = n.toString(2).split('').reduce((a,b) => {return +a + +b});
+          return Number(n);
+        };
+      </code></pre>
     </section>
     <footer class="footer">
       <img src="images/rs_school_js.svg" alt="rsshool-logo" class="rsshool-logo">
       <a href="https://github.com/komoskoann"><span>Click here to see my GitHub profile</span></a>
-      <span class="year">2021</span>
+      <time class="year">2021</time>
     </footer>
     </main>
   </body>
