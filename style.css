@@ -108,7 +108,6 @@ section h2 {
 
 .contacts li:nth-child(3) {
   padding-bottom: 0;
-  /* word-break: break-all; */
 }
 
 .location {
@@ -184,7 +183,6 @@ p {
 
 td {
   padding-right: 10px;
-  /* word-break: break-all; */
 }
 
 .skills__block {
@@ -195,7 +193,6 @@ td {
 .skills__text {
   width: 20%;
   margin-right: 5%;
-  /* word-break: break-all; */
 }
 
 .skills-list {
@@ -245,9 +242,8 @@ figcaption {
   margin-bottom: 3%;
 }
 
-.code {
-  width: 70%;
-  height: 70%;
+pre {
+  white-space: pre-line;
 }
 
 .footer {
@@ -320,7 +316,7 @@ figcaption {
   }
 
   .nav-link {
-    line-height: 40px;
+    line-height: 27px;
     padding: 10px 10px;
   }
 
@@ -363,6 +359,12 @@ figcaption {
   }
 }
 
+@media (max-width: 495px) {
+  .nav-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 @media (max-width: 320px) {
   .photo {
     width: 40%;
@@ -382,12 +384,23 @@ figcaption {
     grid-template-columns: 1fr 1fr;
   }
 
-  * {
+  h1,
+  h2,
+  p,
+  li {
     font-size: 15px;
     line-height: 18px;
   }
-
+  pre {
+    font-size: 10px;
+  }
   .col1 {
     width: 36%;
+  }
+}
+
+@media (max-width: 300px) {
+  td {
+    word-break: break-all;
   }
 }

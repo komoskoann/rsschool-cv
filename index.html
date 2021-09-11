@@ -145,12 +145,10 @@
     <section class="code-example" id="code-example">
       <h2>Code Example</h2>
         <p>Write a function that takes an integer as input, and returns the number of bits that are equal to one in the binary representation of that number. You can guarantee that input is non-negative.</p>
-        <!-- <img src="images/code.png" alt="code" class="code"> -->
-        <pre><code class="language-js">
-        let countBits = function(n) {
-          n = n.toString(2).split('').reduce((a,b) => {return +a + +b});
-          return Number(n);
-        };
+        <pre><code class="language-js">let countBits = function(n) {
+n = n.toString(2).split('').reduce((a,b) => {return +a + +b});
+return Number(n);
+};
       </code></pre>
     </section>
     <footer class="footer">
