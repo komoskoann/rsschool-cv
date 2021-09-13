@@ -21,13 +21,13 @@
         <h1>Ann Komosko</h1>
         <h2>Student of RSSchool 2021q3</h2>
       </div>
-      <aside class="contacts">
+      <div class="contacts">
         <ul>
           <li class="location">Minsk, Belarus</li>
           <li class="phone-number">+375-44-716-86-82</li>
           <li class="e-mail">komoskoann@gmail.com</li>
         </ul>
-      </aside>
+      </div>
     </header>
     <nav class="navigation">
         <ul class="nav-list">
@@ -121,18 +121,18 @@
       <h2>Recent projects</h2>
       <div class="projects-container">
         <div class="project">
-          <a href="https://rolling-scopes-school.github.io/komoskoann-JSFEPRESCHOOL/js30-1/">
+          <a href="https://rolling-scopes-school.github.io/komoskoann-JSFEPRESCHOOL/js30-1/" target="_blank">
             <figure>
               <img src="images/drum_kit.png" alt="Project Drum Kit" class="drum-image">
-              <figcaption>JS Drum Kit</figcaption>
+              <figcaption>JS Drum Kit - music application in which you can play sounds by pressing keys on the keyboard or clicking a mouse button (JS/HTML/CSS)</figcaption>
             </figure>
           </a>
         </div>
         <div class="project">
-          <a href="https://rolling-scopes-school.github.io/komoskoann-JSFEPRESCHOOL/js30-task2/">
+          <a href="https://rolling-scopes-school.github.io/komoskoann-JSFEPRESCHOOL/js30-task2/" target="_blank">
             <figure>
               <img src="images/player.png" alt="Custom Player" class="player-image">
-              <figcaption>JS Custom Video player</figcaption>
+              <figcaption>JS Custom Video player which doesn't depend on the browser or device (JS/HTML/CSS)</figcaption>
             </figure>
           </a>
         </div>
@@ -140,7 +140,8 @@
     </section>
     <section class="english" id="english">
       <h2>English</h2>
-      <p>B1 (intermediate level), Streamline school 2020 - till now</p>
+      <p>B1 (intermediate level), Streamline school nov2020 - july2021</p>
+      <p>B2 (upper intermediate level), Streamline school sep2021 - now</p>
     </section>
     <section class="code-example" id="code-example">
       <h2>Code Example</h2>
@@ -151,11 +152,36 @@ return Number(n);
 };
       </code></pre>
     </section>
+    <aside class="article">
+      <h2>Video presentation</h2>
+      <iframe src="https://www.youtube.com/embed/BKozX1evFqI" title="YouTube video player" allowfullscreen>
+      </iframe>
+    </aside>
     <footer class="footer">
       <img src="images/rs_school_js.svg" alt="rsshool-logo" class="rsshool-logo">
       <a href="https://github.com/komoskoann"><span>Click here to see my GitHub profile</span></a>
       <time class="year">2021</time>
     </footer>
     </main>
+    <script>
+      console.log(`Ваша оценка - 160 баллов
+        Отзыв по пунктам ТЗ:
+      Выполненные пункты:
+        1) вёрстка валидная.Проверить валидность вёрстки: https://validator.w3.org/
+        2) вёрстка семантическая.В коде страницы присутствуют семантические теги HTML5, например, article, aside, figure, figcaption, footer, header, main, nav, section, используются заголовки h1 - h6. 2 балла за каждый уникальный семантический тег HTML5 и за каждый уникальный заголовок h1 - h6, но не больше 20 баллов.Заголовок h1 может быть только один
+        3) для оформления СV используются css - стили. 1 балл за каждый стилизованный элемент, но не больше 10 баллов
+        4) контент размещается в блоке, который горизонтально центрируется на странице.Фоновый цвет, если он есть, тянется во всю ширину страницы
+        5) вёрстка адаптивная: ни на одном из разрешений экрана до 320px включительно не появляется горизонтальная полоса прокрутки, при этом всё содержание страницы сохраняется
+        6) есть меню.Ссылки в пунктах меню ведут на основные разделы CV.Реализована плавная прокрутка по якорям.При уменьшении ширины экрана меню становится адаптивным.
+        7) на странице СV присутствует изображение - фото или аватарка автора CV, пропорции изображения не искажены, у изображения есть атрибут alt(может быть пустым)
+        8) контакты для связи и перечень навыков оформлены в виде списка ul > li
+        9) CV содержит контакты, краткую информацию о себе, навыки, образование, уровень английского
+        10) CV содержит пример вашего кода(например, решение задачи с сайта codewars) с подсветкой кода
+        11) CV содержит изображения - ссылки на выполненные вами проекты.При клике по изображению страница проекта открывается в новой вкладке.У каждого проекта есть название, небольшое описание, указан перечень используемых технологий
+        12) CV выполнено на английском языке
+        13) выполнены требования к репозиторию: есть ссылка на задание, скриншот страницы СV, ссылка на деплой страницы CV на GitHub Pages, указана дата дедлайна, выполнена самооценка(самооценку расписываем по пунктам критериев оценки, указывая балл за каждый пункт)
+        14) есть видеорезюме автора CV на английском языке.Видеорезюме встраивается в страницу CV как видео, а не в виде кнопки или ссылки.Продолжительность видео 3 - 5 минут(±15 секунд).В описание видео на YouTube добавлена его транскрипция на английском языке
+        15) дизайн, оформление, качество выполнения CV не ниже чем в примерах CV, приведённых в материалах к заданию`);
+    </script>
   </body>
 </html>
